@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Amatica+SC:400,700|Open+Sans+Condensed:300,700|Poiret+One');
+	</style>
+	<style>
+		html {
+			height: 100%;
+		}
+
+		body {
+		
+			min-height: 100%;
+			margin: 0;
+			box-sizing: border-box;
+			background: white;
+			padding: 16px;
+			padding-top: 64px;
+			text-align: center;
+			font-family: 'Libre Baskerville', serif;
+			font-family: 'Amatic SC', cursive;
+			font-family: 'Amatica SC', cursive;
+			font-family: 'Open Sans Condensed', sans-serif;
+			font-family: 'Poiret One', cursive;
+			color: rgb(38, 38, 38);
+		}
+
+		* {
+			box-sizing: inherit;
+		}
+
+		.page {
+			background: white;
+			box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.16);
+			max-width: 1280px;
+			display: inline-block;
+			width: 100%;
+			text-align: left;
+			padding: 32px;
+		}
+
+		.body {
+			opacity: 0;
+		}
+
+		.social {
+			display: inline-block;
+			margin: 8px;
+			color: black;
+			text-decoration: none;
+			transform: scale(1);
+			transition: 0.3s transform;
+		}
+
+		.social:hover {
+			text-decoration: underline;
+		}
+
+		.image {
+			background: white;
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			width: 400px;
+			height: 400px;
+			margin: 32px auto;
+		}
+
+		header {
+			display: block;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 48px;
+		}
+
+		h1,
+		h2,
+		h3 {
+			font-family: 'Libre Franklin', sans-serif;
+		}
+
+		#mce-EMAIL {
+			outline: 0;
+			border: 0;
+			border-bottom: 1px solid lightgrey;
+			width: 200px;
+			text-align: center;
+		}
+
+		body .body {
+			animation: body 1s ease;
+			animation-fill-mode: forwards;
+		}
+
+		@keyframes body {
+			from {
+				opacity: 0;
+			}
+			to {
+				opacity: 1;
+			}
+		}
+
+		@media (max-width: 680px) {
+			.image {
+				width: 480px;
+				height: 480px;
+			}
+		}
+
+		@media (max-width: 540px) {
+			.image {
+				width: 280px;
+				height: 280px;
+			}
+		}
+	</style>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.3/require.min.js"></script>
+</head>
+
+<body>
+	<div class="body">
+		<h1>April Jai</h1>
+		<div class="image" style="background-image: url('AprilPlaceholder.jpg')">
+		</div>
+		<h2 class="site-links">
+        <a href="https://www.facebook.com/AprilJai/" class="social email">
+            <!-- shows -->
+            SHOWS
+        </a>
+        <a href="https://apriljai.bandcamp.com" class="social bandcamp">
+            <!-- bandcamp -->
+            MUSIC
+        </a>
+        <a href="https://www.instagram.com/apriljaimusic" class="social instagram">
+            <!-- merch -->
+            MERCH
+        </a>
+        <a href="https://www.youtube.com/user/AprilXJaiXBurnett" class="social youtube">
+            <!-- youtube  -->
+            VIDEO
+        </a>
+    </h2>
+
+		<!-- Begin MailChimp Signup Form -->
+		<div id="mc_embed_signup">
+			<form action="//apriljai.us15.list-manage.com/subscribe/post?u=d8a477ea1c64a0d37f1320fb9&amp;id=313f12456c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<div id="mc_embed_signup_scroll">
+
+					<div class="mc-field-group">
+						<input type="email" value="" name="EMAIL" placeholder="Enter your email address here" class="required email" id="mce-EMAIL">
+					</div>
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>
+					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d8a477ea1c64a0d37f1320fb9_313f12456c" tabindex="-1" value=""></div>
+					<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				</div>
+			</form>
+		</div>
+
+		<!--End mc_embed_signup-->
+	</div>
+</body>
+
+</html>
