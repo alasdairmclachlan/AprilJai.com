@@ -1,0 +1,30 @@
+body {
+            min-height: 100%;
+            margin: 0;
+            box-sizing: border-box;
+            background: white;
+			color: rgb(38, 38, 38);
+            background-color: rgb(255, 250, 242);
+            padding: 8px;
+            text-align: center;
+            animation: body 1s ease;
+
+			}
+
+h1 {
+			font-size: 64px;
+			font-family: 'Offerings', cursive;
+			text-transform: uppercase;
+			text-align: center;
+			}
+
+h2 {
+			font-size: 18px;
+			font-family: 'Offerings', cursive;
+			text-align: center;
+			}	
+			
+p {
+        	font-family: 'Offerings', cursive;
+        	font-size: 20px
+        	}
